@@ -1,0 +1,23 @@
+{
+  "name": "back-chat",
+  "version": "1.0.0",
+  "description": "Final project for progra web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "sockets",
+    "nodejs",
+    "mongo"
+  ],
+  "author": "Victor Ernesto Martinez Leal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
