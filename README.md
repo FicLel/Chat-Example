@@ -9,4 +9,4 @@ Back end will run on port 3005 and Front on 3002
 
 For the front end, we have used Vue 3 and Vite as bundler in place of webpack.
 
-
+Using scss and Bulma css for styles
