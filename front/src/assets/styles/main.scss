@@ -1,0 +1,172 @@
+/* My variables */
+
+$my-primary: #49c3c7;
+$my-background: #ffffff;
+$my-font: #61707d;
+$my-secondary: #9d69a3;
+$my-alert: #e85d75;
+
+/* custom bulma variables and import */
+
+$input-hover-color: $my-font;
+$input-hover-border-color: $my-font;
+$input-focus-border-color: $my-font;
+@import 'node_modules/bulma/bulma.sass';
+
+.login {
+  height: 100vh;
+}
+
+.form-login {
+  padding: 3%;
+}
+
+.container {
+  height: 100vh;
+  background: $my-background;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.border-right {
+  border-right: 2px solid rgba(28,110,164,0.28);
+}
+
+.list-messages__header--container {
+}
+
+.list-messages__header {
+  background: $my-primary;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.list-messages__header--text {
+  overflow: hidden; 
+  text-align: center;
+  width: 100%;
+  padding: 3%;
+  span {
+    color: $my-font;
+    display: inline-block;
+  }
+}
+
+.list-messages__header--input {
+  width: 100%;
+  padding: 2%;
+}
+
+.message-list__container {
+  height: 80%;
+  height: cal(80%);
+  max-height: 88vh;
+  overflow-y: auto;
+  }
+
+.user-message__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3%;
+  cursor: pointer;
+}
+.user-message__container:hover {
+  background: rgba($my-primary, .4); 
+}
+
+.user-message__avatar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.4rem;  
+  width: 2.8rem;
+  border-radius: 45%;
+  background: $my-secondary;
+  color: white;
+  padding: 1.2rem;
+}
+.user-message__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 0 .5rem .7rem;
+  width: 100%;
+  max-width: 100%;
+}
+.user-message__body-name {
+  span {
+    color: $my-font;
+    font-size: 1.2rem;
+  }
+}
+.user-message__body-message {
+  span {
+    color: #61707dcc;
+    font-size: .7rem;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Starting chat classes */
+.message-box__header {
+  background: $my-primary;
+  height: 7vh;
+}
+
+.message-box__header--body {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 0 0 0 2%;
+}
+
+.message-box__body {
+  height: 88vh;
+  overflow-y: auto;
+}
+
+.message-container {
+  display: flex;
+  min-height: 3vh; 
+  width: 100%;
+  padding: 3%;
+  margin: .5rem;
+}
+.send {
+  justify-content: flex-end;
+}
+.recived {
+  justify-content: flex-start;
+}
+
+.own-message {
+  max-width: 55%;
+  background: $my-background;
+}
+.message-text {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: .5rem;
+  border-radius: 2%;
+}
+.my-message {
+  background: $my-primary !important;
+}
+.their-message {
+  background: $my-secondary !important;
+  color: white;
+}
+
+.message-box__footer {
+  height: 5vh;
+}
+
+
