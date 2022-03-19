@@ -4,7 +4,7 @@ To run PWA version of the project you must use front directory, and run the foll
 
 ```npm build && cd dist && http-server && cd .. ```
 
-This is because vue and webpack does not provides a default way to show on localhost the option for install a pwa application, and in the front-chat directory we have vite, and it needs luck to work as pwa.
+This is because vue and webpack do not provide a default way to show on localhost the option for install a pwa application, and in the front-chat directory we have vite, and it needs luck to work as pwa when working on development.
 
 # Run project
 
